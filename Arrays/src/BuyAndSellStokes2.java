@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BuyAndSellStokes2 {
+public class  BuyAndSellStokes2 {
 
     public static int buyAndSellStoke(int prices[]){
         int buyPrice = Integer.MAX_VALUE;

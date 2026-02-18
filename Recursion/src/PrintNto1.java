@@ -5,8 +5,9 @@ public class PrintNto1 {
             return;
         }
        // System.out.println(n + " ");
-        printNto1(n-1);
-        System.out.println(n);
+        // printNto1(n-1);
+        System.out.println(n);  // print(n) --> will only print 'n'  but print(n-1) will take care of the rest
+        printNto1(n-1); // Subproblem
     }
     public static void main(String[] args) {
         // int n = 10;
