@@ -5,7 +5,7 @@ public class KadaneAlgorithm {
         int maxSum = Integer.MIN_VALUE;
 
 
-        for (int i=0; i< arr.length; i++){
+        for (int i=0; i<arr.length; i++){
             currSum += arr[i];
             maxSum = Math.max(maxSum, currSum);
 
